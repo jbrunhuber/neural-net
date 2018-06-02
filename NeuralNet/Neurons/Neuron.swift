@@ -1,5 +1,5 @@
 //
-//  main.swift
+//  Neuron.swift
 //  NeuralNet
 //
 //  Created by Joshua Brunhuber on 02.06.18.
@@ -8,3 +8,7 @@
 
 import Foundation
 
+protocol Neuron {
+    
+    func value() -> Double
+}
