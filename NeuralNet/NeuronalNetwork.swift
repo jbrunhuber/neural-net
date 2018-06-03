@@ -15,7 +15,7 @@ class NeuronalNetwork {
     
     /**
      Generates the connections between the input and worker neurons
-     
+
      - returns: true, if the mesh-process was succesful, false otherwise
      */
     func mesh(weights: [Float]) -> Bool {

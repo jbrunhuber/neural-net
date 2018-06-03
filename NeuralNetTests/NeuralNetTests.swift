@@ -23,11 +23,37 @@ class NeuralNetTests: XCTestCase {
         let network = NeuronalNetwork()
         network.assign(neurons: [inputValue1, inputValue2, inputValue3, inputValue4])
         
-        let output = HiddenNeuron()
+        let activationFunction = IdentityFunction()
+        
+        let output = HiddenNeuron(activatable: activationFunction)
         network.setOutputNeuron(output: output)
         
         if network.mesh(weights: [2, -2, 4, 7]) {
             let expected = 57.0
+            let actual = output.value()
+            XCTAssertEqual(expected, actual)
+        } else {
+            XCTFail()
+        }
+    }
+    
+    func testSingleLayerPerceptronSigmoid() {
+        
+        let inputValue1 = InputNeuron(value: 0)
+        let inputValue2 = InputNeuron(value: 0)
+        let inputValue3 = InputNeuron(value: 0)
+        let inputValue4 = InputNeuron(value: 0)
+        
+        let network = NeuronalNetwork()
+        network.assign(neurons: [inputValue1, inputValue2, inputValue3, inputValue4])
+        
+        let activationFunction = SigmoidFunction()
+        
+        let output = HiddenNeuron(activatable: activationFunction)
+        network.setOutputNeuron(output: output)
+        
+        if network.mesh(weights: [2, -2, 4, 7]) {
+            let expected = 0.5
             let actual = output.value()
             XCTAssertEqual(expected, actual)
         } else {

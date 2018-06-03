@@ -11,6 +11,12 @@ import Foundation
 class HiddenNeuron: Neuron {
     
     var connections: [Connection] = []
+    private var activationFunction: Activateable
+    
+    init(activatable: Activateable) {
+        
+        activationFunction = activatable
+    }
     
     /**
      Calculates the value of the neuron considering all existing connections
@@ -33,7 +39,7 @@ class HiddenNeuron: Neuron {
         for connection in connections {
             sum += connection.neuronReference.value() * Double(connection.weight)
         }
-        return sum
+        return activationFunction.activate(value: sum)
     }
     
     /**

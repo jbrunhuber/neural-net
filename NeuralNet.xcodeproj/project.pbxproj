@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03233D8620C45F630016ADEB /* Activatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03233D8520C45F630016ADEB /* Activatable.swift */; };
+		03233D8720C45F630016ADEB /* Activatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03233D8520C45F630016ADEB /* Activatable.swift */; };
+		03233D8A20C466490016ADEB /* SigmoidFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03233D8920C466490016ADEB /* SigmoidFunction.swift */; };
+		03233D8B20C466490016ADEB /* SigmoidFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03233D8920C466490016ADEB /* SigmoidFunction.swift */; };
+		03233D8D20C46AE20016ADEB /* IdentityFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03233D8C20C46AE20016ADEB /* IdentityFunction.swift */; };
+		03233D8E20C46AE20016ADEB /* IdentityFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03233D8C20C46AE20016ADEB /* IdentityFunction.swift */; };
 		03D7DB5620C2FF1B00A3908A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB5520C2FF1B00A3908A /* main.swift */; };
 		03D7DB5E20C2FF3A00A3908A /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB5D20C2FF3A00A3908A /* Neuron.swift */; };
 		03D7DB6020C2FF7900A3908A /* InputNeuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB5F20C2FF7900A3908A /* InputNeuron.swift */; };
@@ -35,6 +41,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		03233D8520C45F630016ADEB /* Activatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activatable.swift; sourceTree = "<group>"; };
+		03233D8920C466490016ADEB /* SigmoidFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigmoidFunction.swift; sourceTree = "<group>"; };
+		03233D8C20C46AE20016ADEB /* IdentityFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityFunction.swift; sourceTree = "<group>"; };
 		03D7DB5220C2FF1B00A3908A /* NeuralNet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NeuralNet; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D7DB5520C2FF1B00A3908A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		03D7DB5D20C2FF3A00A3908A /* Neuron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neuron.swift; sourceTree = "<group>"; };
@@ -65,6 +74,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03233D8820C4660A0016ADEB /* ActivationFunctions */ = {
+			isa = PBXGroup;
+			children = (
+				03233D8520C45F630016ADEB /* Activatable.swift */,
+				03233D8920C466490016ADEB /* SigmoidFunction.swift */,
+				03233D8C20C46AE20016ADEB /* IdentityFunction.swift */,
+			);
+			path = ActivationFunctions;
+			sourceTree = "<group>";
+		};
 		03D7DB4920C2FF1B00A3908A = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				03D7DB6320C2FFE400A3908A /* Connection.swift */,
+				03233D8820C4660A0016ADEB /* ActivationFunctions */,
 				03D7DB5C20C2FF2D00A3908A /* Neurons */,
 				03D7DB5520C2FF1B00A3908A /* main.swift */,
 				03D7DB6720C3007500A3908A /* NeuronalNetwork.swift */,
@@ -203,9 +223,12 @@
 			files = (
 				03D7DB6220C2FFBD00A3908A /* HiddenNeuron.swift in Sources */,
 				03D7DB6820C3007500A3908A /* NeuronalNetwork.swift in Sources */,
+				03233D8A20C466490016ADEB /* SigmoidFunction.swift in Sources */,
+				03233D8620C45F630016ADEB /* Activatable.swift in Sources */,
 				03D7DB5E20C2FF3A00A3908A /* Neuron.swift in Sources */,
 				03D7DB6420C2FFE400A3908A /* Connection.swift in Sources */,
 				03D7DB6020C2FF7900A3908A /* InputNeuron.swift in Sources */,
+				03233D8D20C46AE20016ADEB /* IdentityFunction.swift in Sources */,
 				03D7DB5620C2FF1B00A3908A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +241,10 @@
 				03D7DBC120C3115900A3908A /* main.swift in Sources */,
 				03D7DBC220C3115C00A3908A /* NeuronalNetwork.swift in Sources */,
 				03D7DBBE20C3115200A3908A /* Neuron.swift in Sources */,
+				03233D8720C45F630016ADEB /* Activatable.swift in Sources */,
+				03233D8E20C46AE20016ADEB /* IdentityFunction.swift in Sources */,
 				03D7DBBF20C3115500A3908A /* InputNeuron.swift in Sources */,
+				03233D8B20C466490016ADEB /* SigmoidFunction.swift in Sources */,
 				03D7DB7020C306AC00A3908A /* NeuralNetTests.swift in Sources */,
 				03D7DBC320C3115F00A3908A /* Connection.swift in Sources */,
 			);
