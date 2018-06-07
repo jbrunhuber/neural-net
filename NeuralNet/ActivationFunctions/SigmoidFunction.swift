@@ -12,7 +12,7 @@ struct SigmoidFunction: Activateable {
     
     /**
      Calculates the sigmoid function on the input value.
-     The sigmoid function a S-shaped curve and its result is in the range between 0 and 1
+     The sigmoid function is a S-shaped curve and its result is in the range between 0 and 1
      
      - parameter value: The value to calculate
      - returns: The calculated result

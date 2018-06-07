@@ -18,13 +18,13 @@
 		03D7DB6020C2FF7900A3908A /* InputNeuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB5F20C2FF7900A3908A /* InputNeuron.swift */; };
 		03D7DB6220C2FFBD00A3908A /* HiddenNeuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB6120C2FFBD00A3908A /* HiddenNeuron.swift */; };
 		03D7DB6420C2FFE400A3908A /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB6320C2FFE400A3908A /* Connection.swift */; };
-		03D7DB6820C3007500A3908A /* NeuronalNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB6720C3007500A3908A /* NeuronalNetwork.swift */; };
+		03D7DB6820C3007500A3908A /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB6720C3007500A3908A /* NeuralNetwork.swift */; };
 		03D7DB7020C306AC00A3908A /* NeuralNetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB6F20C306AC00A3908A /* NeuralNetTests.swift */; };
 		03D7DBBE20C3115200A3908A /* Neuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB5D20C2FF3A00A3908A /* Neuron.swift */; };
 		03D7DBBF20C3115500A3908A /* InputNeuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB5F20C2FF7900A3908A /* InputNeuron.swift */; };
 		03D7DBC020C3115700A3908A /* HiddenNeuron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB6120C2FFBD00A3908A /* HiddenNeuron.swift */; };
 		03D7DBC120C3115900A3908A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB5520C2FF1B00A3908A /* main.swift */; };
-		03D7DBC220C3115C00A3908A /* NeuronalNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB6720C3007500A3908A /* NeuronalNetwork.swift */; };
+		03D7DBC220C3115C00A3908A /* NeuralNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB6720C3007500A3908A /* NeuralNetwork.swift */; };
 		03D7DBC320C3115F00A3908A /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D7DB6320C2FFE400A3908A /* Connection.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,7 +50,7 @@
 		03D7DB5F20C2FF7900A3908A /* InputNeuron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputNeuron.swift; sourceTree = "<group>"; };
 		03D7DB6120C2FFBD00A3908A /* HiddenNeuron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiddenNeuron.swift; sourceTree = "<group>"; };
 		03D7DB6320C2FFE400A3908A /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
-		03D7DB6720C3007500A3908A /* NeuronalNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuronalNetwork.swift; sourceTree = "<group>"; };
+		03D7DB6720C3007500A3908A /* NeuralNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetwork.swift; sourceTree = "<group>"; };
 		03D7DB6D20C306AB00A3908A /* NeuralNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuralNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03D7DB6F20C306AC00A3908A /* NeuralNetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuralNetTests.swift; sourceTree = "<group>"; };
 		03D7DB7120C306AC00A3908A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -109,7 +109,7 @@
 				03233D8820C4660A0016ADEB /* ActivationFunctions */,
 				03D7DB5C20C2FF2D00A3908A /* Neurons */,
 				03D7DB5520C2FF1B00A3908A /* main.swift */,
-				03D7DB6720C3007500A3908A /* NeuronalNetwork.swift */,
+				03D7DB6720C3007500A3908A /* NeuralNetwork.swift */,
 			);
 			path = NeuralNet;
 			sourceTree = "<group>";
@@ -222,7 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03D7DB6220C2FFBD00A3908A /* HiddenNeuron.swift in Sources */,
-				03D7DB6820C3007500A3908A /* NeuronalNetwork.swift in Sources */,
+				03D7DB6820C3007500A3908A /* NeuralNetwork.swift in Sources */,
 				03233D8A20C466490016ADEB /* SigmoidFunction.swift in Sources */,
 				03233D8620C45F630016ADEB /* Activatable.swift in Sources */,
 				03D7DB5E20C2FF3A00A3908A /* Neuron.swift in Sources */,
@@ -239,7 +239,7 @@
 			files = (
 				03D7DBC020C3115700A3908A /* HiddenNeuron.swift in Sources */,
 				03D7DBC120C3115900A3908A /* main.swift in Sources */,
-				03D7DBC220C3115C00A3908A /* NeuronalNetwork.swift in Sources */,
+				03D7DBC220C3115C00A3908A /* NeuralNetwork.swift in Sources */,
 				03D7DBBE20C3115200A3908A /* Neuron.swift in Sources */,
 				03233D8720C45F630016ADEB /* Activatable.swift in Sources */,
 				03233D8E20C46AE20016ADEB /* IdentityFunction.swift in Sources */,

@@ -1,5 +1,5 @@
 //
-//  NeuronalNetwork.swift
+//  NeuralNetwork.swift
 //  NeuralNet
 //
 //  Created by Joshua Brunhuber on 02.06.18.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class NeuronalNetwork {
+class NeuralNetwork {
     
     var input: [InputNeuron] = []
     var results: [HiddenNeuron] = []
