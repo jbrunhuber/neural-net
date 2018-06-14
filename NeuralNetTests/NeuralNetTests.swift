@@ -20,7 +20,7 @@ class NeuralNetTests: XCTestCase {
         let inputValue3 = InputNeuron(value: 3)
         let inputValue4 = InputNeuron(value: 7)
         
-        let network = NeuronalNetwork()
+        let network = NeuralNetwork()
         network.assign(neurons: [inputValue1, inputValue2, inputValue3, inputValue4])
         
         let activationFunction = IdentityFunction()
@@ -44,7 +44,7 @@ class NeuralNetTests: XCTestCase {
         let inputValue3 = InputNeuron(value: 0)
         let inputValue4 = InputNeuron(value: 0)
         
-        let network = NeuronalNetwork()
+        let network = NeuralNetwork()
         network.assign(neurons: [inputValue1, inputValue2, inputValue3, inputValue4])
         
         let activationFunction = SigmoidFunction()
